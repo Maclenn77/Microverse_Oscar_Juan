@@ -1,18 +1,35 @@
-/* @media only screen and (max-width: 800px) {
-    body {
-      background-color: gainsboro;
-    }
+  #welcome-section{
+    height: 100vh;
+  }
+
+  #navbar {
+    position: fixed;
+    top: 0;
+    margin-left: auto;
+  }
+
+  .project-tile {
+    background-color: lightgreen;
+  }
+}
+
+/*@media (max-width: 350px) {
+  .project-tile {
+	  font-size: 10px;
+    background-color: lightblue;
   } */
 
-  @media only screen and (max-width: 400px) {
-    #welcome-section {
+@media screen and (max-width: 800px) {
+    .project-tile {
       float: none;
       width: 100%;
-      background-color: grey;
+      background-color: lightblue;
     }
   }
 
-  #welcome-section{
-    height: 1.0vh;
-  }
-  
+/*  @media only screen and (max-width: 800px) {
+      body {
+        background-color: gainsboro;
+      }
+    }
+*/
