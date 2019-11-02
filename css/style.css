@@ -1,0 +1,21 @@
+  #welcome-section{
+    height: 100vh;
+  }
+
+  #navbar {
+    position: fixed;
+    top: 0;
+    margin-left: auto;
+  }
+
+  .project-tile {
+    background-color: lightgreen;
+  }
+
+@media screen and (max-width: 800px) {
+    .project-tile {
+      float: none;
+      width: 100%;
+      background-color: lightblue;
+    }
+  }
